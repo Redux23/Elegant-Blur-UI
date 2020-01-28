@@ -35,7 +35,7 @@ z-index: 1;
 top: 10%;
 left: 50%;
 margin-top: 105px;
-margin-left: -145px;
+margin-left: -250px;
 width: 300;
 height: 350px;
 text-align: center;
@@ -96,4 +96,12 @@ footer{
 footer p{
     margin: 0;
 
+}
+
+
+/* Small Screens  */
+@media(max-width: 560px){
+    .showcase::after {
+        height: 50;
+    } 
 }
